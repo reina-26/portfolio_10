@@ -1,0 +1,17 @@
+<svg id="ico_newtab" xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect id="_fff" data-name="#fff" class="cls-1" x="0.5" y="3.5" width="16" height="10"/>
+  <path id="_fff-2" data-name="#fff" class="cls-2" d="M2115,2776h10v10" transform="translate(-2105.5 -2775.5)"/>
+</svg>

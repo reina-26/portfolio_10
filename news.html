@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="description" content="練習用架空サイトです。">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="./assets/css/initialize.css" rel="stylesheet" type="text/css">
+  <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/fontawesome5-all.min.css">
+
+  <!-- ファビコン設定 -->
+  <link rel="icon" href="./assets/images/favicon/favicon.ico">
+  <link rel="apple-touch-icon" href="./assets/images/favicon/apple-touch-icon-152x152.png" sizes="152x152">
+  <link rel="icon" href="./assets/images/favicon/icon-192x192.png" sizes="192x192" type="image/png">
+
+  <link rel="canonical" href="#">
+
+  <title>お知らせ｜Catoy</title>
+
+  <!--
+  <style>
+    p {
+      font-family: 'Noto Sans JP', sans-serif;
+      font-family: 'Pacifico', cursive;
+    }
+  </style>
+  -->
+</head>
+
+<body id="news">
+
+  <!-- ===============================================
+          loading
+  ================================================ -->
+  <div id="loading">
+    <!-- Gifニメーション、SVGアニメーション、CSSアニメーションお好みで -->
+    <i class="fas fa-spinner fa-pulse"></i>
+    <!-- <i class="fas fa-stroopwafel fa-spin"></i> -->
+  </div>
+
+  <div id="sitewrap" class="is-hidden">
+    <!-- 最初非表示 -->
+
+    <!-- ===============================================
+    Header
+  ================================================ -->
+    <header class="header">
+      <div class="wrap">
+        <div class="header-top">
+          <h1 class="header__logo">
+            <a href="#">
+              <img src="./assets/images/logo/logo.svg" alt="Sample Designのロゴ" />
+            </a>
+          </h1>
+
+          <nav id="main-nav" class="main-nav" aria-label="Main">
+            <ul class="main-nav__list">
+              <li class="main-nav__item">
+                <a href="#" class="main-nav__link">私たちの想い</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#" class="main-nav__link">製品情報</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="#" class="main-nav__link">店舖紹介</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="./about.html" class="main-nav__link">会社案内</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="./faq.html" class="main-nav__link">よくあるご質問</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="./contact.html" class="main-nav__link main-nav__contact">お問い合わせ</a>
+              </li>
+            </ul>
+          </nav><!-- /main-nav -->
+
+          <nav class="main-nav-pc" aria-label="Main">
+            <ul class="main-nav-pc__list">
+              <li class="main-nav-pc__item">
+                <a href="#" class="main-nav-pc__link">私たちの想い</a>
+              </li>
+              <li class="main-nav-pc__item">
+                <a href="#" class="main-nav-pc__link">製品情報</a>
+              </li>
+              <li class="main-nav-pc__item">
+                <a href="#" class="main-nav-pc__link">店舖紹介</a>
+              </li>
+              <li class="main-nav-pc__item">
+                <a href="./about.html" class="main-nav-pc__link">会社案内</a>
+              </li>
+              <li class="main-nav-pc__item">
+                <a href="./faq.html" class="main-nav-pc__link">よくあるご質問</a>
+              </li>
+              <li class="main-nav-pc__item">
+                <a href="./contact.html" class="main-nav-pc__link main-nav-pc__contact">お問い合わせ</a>
+              </li>
+            </ul>
+          </nav><!-- /main-nav-pc -->
+
+          <div class="button-hamburger js-button-hamburger" aria-controls="global-nav" aria-expanded="false">
+            <span class="screen-reader-text">メニューを開閉する</span>
+            <span class="button-hamburger__bars">
+              <span class="button-hamburger__bar"></span>
+              <span class="button-hamburger__bar"></span>
+              <span class="button-hamburger__bar"></span>
+            </span>
+          </div>
+        </div><!-- /.header-top -->
+      </div><!-- /.wrap -->
+    </header>
+
+    <!-- <style>
+      .page-title::before {
+        content: attr(data-pagettl);
+      }
+    </style> -->
+
+    <!-- ===============================================
+      main
+    ================================================ -->
+    <main class="main">
+      <div class="page-title">
+        <div class="wrap">
+          <h1 data-pagettl="news" class="orange">お知らせ</h1>
+        </div>
+      </div>
+      <div class="news">
+        <div class="news-main">
+          <div class="wrap">
+            <section class="news-content">
+              <h2 class="news-heading">お知らせ一覧</h2>
+              <div class="news-article__wrapper">
+                <article class="news-article">
+                  <div class="news-article__content">
+                    <div class="news-article__leader">
+                      <p class="news-article-txt"><time datetime="2019-00-00 " class="news-article__time">2019.00.00</time>
+                    </p>
+                      <ul class="post-categories">
+                        <li><a href="#">カテゴリー名はいります</a></li>
+                        <!-- <li><a href="#"></a></li> -->
+                      </ul>
+                    </div><!-- /.news-article__leader -->
+                    <h2 class="news-article__ttl">
+                    <a href="news_single.html">記事タイトルはいりますテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</a>
+                  </h2>
+                  </div><!-- /news-article__content -->
+                </article><!-- /news-article -->
+                <article class="news-article">
+                  <div class="news-article__content">
+                    <div class="news-article__leader">
+                      <p class="news-article-txt"><time datetime="2019-00-00 " class="news-article__time">2019.00.00</time>
+                    </p>
+                      <ul class="post-categories">
+                        <li><a href="#">カテゴリー名はいります</a></li>
+                        <!-- <li><a href="#"></a></li> -->
+                      </ul>
+                    </div><!-- /.news-article__leader -->
+                    <h2 class="news-article__ttl">
+                    <a href="news_single.html">記事タイトルはいりますテキストテキストテキストテキスト</a>
+                  </h2>
+                  </div><!-- /news-article__content -->
+                </article><!-- /news-article -->
+                <article class="news-article">
+                  <div class="news-article__content">
+                    <div class="news-article__leader">
+                      <p class="news-article-txt"><time datetime="2019-00-00 " class="news-article__time">2019.00.00</time>
+                    </p>
+                      <ul class="post-categories">
+                        <li><a href="#">カテゴリー名はいります</a></li>
+                        <!-- <li><a href="#"></a></li> -->
+                      </ul>
+                    </div><!-- /.news-article__leader -->
+                    <h2 class="news-article__ttl">
+                    <a href="news_single.html">記事タイトルはいりますテキストテキストテキストテキスト</a>
+                  </h2>
+                  </div><!-- /news-article__content -->
+                </article><!-- /news-article -->
+                <article class="news-article">
+                  <div class="news-article__content">
+                    <div class="news-article__leader">
+                      <p class="news-article-txt"><time datetime="2019-00-00 " class="news-article__time">2019.00.00</time>
+                    </p>
+                      <ul class="post-categories">
+                        <li><a href="#">カテゴリー名はいります</a></li>
+                        <!-- <li><a href="#"></a></li> -->
+                      </ul>
+                    </div><!-- /.news-article__leader -->
+                    <h2 class="news-article__ttl">
+                    <a href="news_single.html">記事タイトルはいりますテキストテキストテキストテキスト</a>
+                  </h2>
+                  </div><!-- /news-article__content -->
+                </article><!-- /news-article -->
+                <article class="news-article">
+                  <div class="news-article__content">
+                    <div class="news-article__leader">
+                      <p class="news-article-txt"><time datetime="2019-00-00 " class="news-article__time">2019.00.00</time>
+                    </p>
+                      <ul class="post-categories">
+                        <li><a href="#">カテゴリー名はいります</a></li>
+                        <!-- <li><a href="#"></a></li> -->
+                      </ul>
+                    </div><!-- /.news-article__leader -->
+                    <h2 class="news-article__ttl">
+                    <a href="news_single.html">記事タイトルはいりますテキストテキストテキストテキスト</a>
+                  </h2>
+                  </div><!-- /news-article__content -->
+                </article><!-- /news-article -->
+                <article class="news-article">
+                  <div class="news-article__content">
+                    <div class="news-article__leader">
+                      <p class="news-article-txt"><time datetime="2019-00-00 " class="news-article__time">2019.00.00</time>
+                    </p>
+                      <ul class="post-categories">
+                        <li><a href="#">カテゴリー名はいります</a></li>
+                        <!-- <li><a href="#"></a></li> -->
+                      </ul>
+                    </div><!-- /.news-article__leader -->
+                    <h2 class="news-article__ttl">
+                    <a href="news_single.html">記事タイトルはいりますテキストテキストテキストテキスト</a>
+                  </h2>
+                  </div><!-- /news-article__content -->
+                </article><!-- /news-article -->
+                <article class="news-article">
+                  <div class="news-article__content">
+                    <div class="news-article__leader">
+                      <p class="news-article-txt"><time datetime="2019-00-00 " class="news-article__time">2019.00.00</time>
+                    </p>
+                      <ul class="post-categories">
+                        <li><a href="#">カテゴリー名はいります</a></li>
+                        <!-- <li><a href="#"></a></li> -->
+                      </ul>
+                    </div><!-- /.news-article__leader -->
+                    <h2 class="news-article__ttl">
+                    <a href="news_single.html">記事タイトルはいりますテキストテキストテキストテキスト</a>
+                  </h2>
+                  </div><!-- /news-article__content -->
+                </article><!-- /news-article -->
+                <article class="news-article">
+                  <div class="news-article__content">
+                    <div class="news-article__leader">
+                      <p class="news-article-txt"><time datetime="2019-00-00 " class="news-article__time">2019.00.00</time>
+                    </p>
+                      <ul class="post-categories">
+                        <li><a href="#">カテゴリー名はいります</a></li>
+                        <!-- <li><a href="#"></a></li> -->
+                      </ul>
+                    </div><!-- /.news-article__leader -->
+                    <h2 class="news-article__ttl">
+                    <a href="news_single.html">記事タイトルはいりますテキストテキストテキストテキスト</a>
+                  </h2>
+                  </div><!-- /news-article__content -->
+                </article><!-- /news-article -->
+                <article class="news-article">
+                  <div class="news-article__content">
+                    <div class="news-article__leader">
+                      <p class="news-article-txt"><time datetime="2019-00-00 " class="news-article__time">2019.00.00</time>
+                    </p>
+                      <ul class="post-categories">
+                        <li><a href="#">カテゴリー名はいります</a></li>
+                        <!-- <li><a href="#"></a></li> -->
+                      </ul>
+                    </div><!-- /.news-article__leader -->
+                    <h2 class="news-article__ttl">
+                    <a href="news_single.html">記事タイトルはいりますテキストテキストテキストテキスト</a>
+                  </h2>
+                  </div><!-- /news-article__content -->
+                </article><!-- /news-article -->
+                <article class="news-article">
+                  <div class="news-article__content">
+                    <div class="news-article__leader">
+                      <p class="news-article-txt"><time datetime="2019-00-00 " class="news-article__time">2019.00.00</time>
+                    </p>
+                      <ul class="post-categories">
+                        <li><a href="#">カテゴリー名はいります</a></li>
+                        <!-- <li><a href="#"></a></li> -->
+                      </ul>
+                    </div><!-- /.news-article__leader -->
+                    <h2 class="news-article__ttl">
+                    <a href="news_single.html">記事タイトルはいりますテキストテキストテキストテキスト</a>
+                  </h2>
+                  </div><!-- /news-article__content -->
+                </article><!-- /news-article -->
+              </div><!-- /.news-article__wrapper -->
+
+              <nav class="navigation pagination" role="navigation">
+                <h2 class="screen-reader-text">投稿ナビゲーション</h2>
+                <div class="nav-links">
+                  <a class="prev page-numbers" href="#"><span class="screen-reader-text">前へ</span></a>
+                  <span aria-current="page" class="page-numbers current">1</span>
+                  <a class="page-numbers" href="#">2</a>
+                  <a class="page-numbers" href="#">3</a>
+                  <a class="next page-numbers" href="#"><span class="screen-reader-text">次へ</span></a>
+                </div>
+              </nav>
+            </section><!-- /news-content -->
+          </div><!-- wrap -->
+        </div><!-- /news-main -->
+
+        <div class="news-side">
+          <div class="wrap">
+            <aside class="widget side__category widget_categories">
+              <h2 class="widgettitle">カテゴリー</h2>
+              <ul>
+                <li class="cat-item cat-item-1"><a href="#">カテゴリー名はいります</a></li>
+                <li class="cat-item cat-item-2"><a href="#">カテゴリー名はいります</a></li>
+                <li class="cat-item cat-item-3"><a href="#">カテゴリー名はいります</a></li>
+                <li class="cat-item cat-item-3"><a href="#">カテゴリー名はいります</a></li>
+              </ul>
+            </aside><!-- /side__category -->
+
+            <aside class="widget side__archive  widget_archive">
+              <h2 class="widgettitle">月別アーカイブ</h2>
+              <label class="screen-reader-text" for="archives-dropdown-5">ARCHIVE</label>
+              <select id="archives-dropdown-xxx" name="archive-dropdown">
+                <option value="">月を選択する</option>
+                <option value="#"> 2019年3月 </option>
+                <option value="#"> 2018年9月 </option>
+                <option value="#"> 2017年7月 </option>
+                <option value="#"> 2017年3月 </option>
+                <option value="#"> 2016年9月 </option>
+                <option value="#"> 2013年9月 </option>
+                <option value="#"> 2013年8月 </option>
+                <option value="#"> 2012年9月 </option>
+                <option value="#"> 2012年8月 </option>
+              </select>
+            </aside><!-- /side__archive -->
+          </div><!-- /.wrap -->
+        </div><!-- news-side -->
+      </div><!-- /.news -->
+
+
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <div class="wrap">
+          <ol class="breadcrumb__list">
+            <li class="breadcrumb__item"><a class="breadcrumb__link" href="#"><span class="screen-reader-text">Topページ</span><i class="fas fa-home"></i></a></li>
+            <li class="breadcrumb__item"><a class="breadcrumb__link" href="#">ページタイトル</a></li>
+            <li class="breadcrumb__item"><a class="breadcrumb__link" href="#">ページタイトル</a></li>
+            <li class="breadcrumb__item"><a class="breadcrumb__link" href="#">ページタイトル</a></li>
+            <li class="breadcrumb__item"><a class="breadcrumb__link" href="#" aria-current="location">ページタイトル</a></li>
+          </ol>
+        </div><!-- /.wrap -->
+      </nav>
+
+    </main>
+
+
+    <!-- ===============================================
+        page-top
+  ================================================ -->
+
+    <p id="pagetop-btn" class="pagetop-btn">
+      <span class="screen-reader-text">このページの先頭に戻る</span>
+    </p>
+
+    <!-- ===============================================
+        footer
+  ================================================ -->
+
+    <footer class="footer">
+      <div class="wrap">
+        <div class="footer-bottom">
+          <div class="sns">
+            <ul class="sns__list">
+              <li class="sns__item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li class="sns__item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li class="sns__item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            </ul>
+          </div>
+          <!--sns -->
+
+          <div class="copyright">
+            <p class="copyright__text">
+              <small>Copyright &copy; 2019 Gita All Rights Reserved.</small>
+            </p>
+          </div>
+          <!--copyright -->
+        </div><!-- /.footer-botton -->
+      </div><!-- /.wrap -->
+    </footer>
+
+  </div><!-- /sitewrap -->
+
+  <script src="./assets/js/jquery-1.11.3.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
